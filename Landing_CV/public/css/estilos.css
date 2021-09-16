@@ -1,0 +1,48 @@
+/*PALETA DE COLORES
+ #14110F
+ #34312D
+ #7E7F83
+ #D9C5B2
+ #F3F3F4
+*/
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #7E7F83
+}
+
+
+/* Header*/
+
+.navBar-header{
+    height: 40px;
+    width: 100%;
+    background-color: #14110f ;
+}
+
+.hamburger-navBar-header{
+    color: #F3F3F4;
+    
+}
+
+.moon-navBar-header{
+    color: #D9C5B2;
+}
+
+.sun-navBar-header{
+    color: #D9C5B2;
+}
+
+
+
+/* Fin Header*/
