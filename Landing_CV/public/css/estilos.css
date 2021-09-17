@@ -18,7 +18,7 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    background-color: #7E7F83
+    background-color: #34312D
 }
 
 
@@ -28,21 +28,164 @@ body{
     height: 40px;
     width: 100%;
     background-color: #14110f ;
+    display: flex;
+    justify-content: space-around;
 }
 
-.hamburger-navBar-header{
+.icons-navBar-header{
     color: #F3F3F4;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
     
-}
-
-.moon-navBar-header{
-    color: #D9C5B2;
-}
-
-.sun-navBar-header{
-    color: #D9C5B2;
 }
 
 
 
 /* Fin Header*/
+
+
+
+/* inicio main*/
+
+.conteiner-photo-main{
+    margin-top: 50px;
+    width: 100%;
+   
+    
+    
+}
+
+.photo-main{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #14110F;
+    width: 60%;
+}
+
+
+.name-main{
+    text-align: center;
+    font-size: 30px;
+    color: #D9C5B2;
+}
+
+.subTitle-main{
+
+    text-align: center;
+    font-size: 20px;
+    color: #7E7F83;
+}
+
+.conteiner-subt{
+    margin-top: 20px;
+}
+
+.name-main{
+    margin-bottom: 5px;
+}
+
+.aboutMe-main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #7E7F83;
+    width: 90%;
+}
+
+.aboutMe-main p{
+    margin-top: 5px;
+    color: #F3F3F4;
+}
+
+
+.academi-main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #7E7F83;
+    width: 90%;
+}
+
+.work-main{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #7E7F83;
+    width: 90%;
+}
+
+.work-main{
+    border: solid #7E7F83 1px;
+}
+
+.images{
+    margin: 5px;
+    border: #D9C5B2 solid 1px;
+}
+
+.flightCockpitImg{
+    width: 100%;
+}
+
+.courses{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #7E7F83;
+    width: 90%;
+}
+
+.technologies{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #7E7F83;
+    width: 90%;
+}
+
+.technologies ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.technologies ul li i{
+    background-color: #14110f;
+    color:#F3F3F4 ;
+    font-size: 30px;
+    padding: 10px;
+    border: solid 1px #14110f;
+    border-radius: 50%;
+}
+
+.interests{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #7E7F83;
+    width: 90%;
+}
+
+/* Fin main*/
+
+/*Inicio footer*/
+
+.contact{
+    background-color: #F3F3F4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #14110F;
+    width: 100%;
+}
+
+.contact ul{
+    list-style-type: none;
+}
+
+/*fin footer*/
